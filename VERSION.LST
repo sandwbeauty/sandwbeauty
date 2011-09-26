@@ -1,0 +1,79 @@
+content updated 08.08.08 - v6
+updated: 
+	- meta data for search engines
+	- page description
+	- added reference to S&W on all pages 
+	  (excluding Contact page which was the
+	  only one with location reference.  Found
+	  critical missing data when searching for
+	  our site on Google. Only returned Contact's
+	  page).
+	 - corrected zip code of primary location (20080818)
+
+Enhancements:
+	- need to fill in additional products pages (4,6,7,8)
+	- need overall pic of display case
+	- need hook into eShop for purchases (8)
+	- need product logos added at least on (3) if not on main screen
+	
+content update 08.09.01 - v7
+updated:
+	- pages 3, 4, 6, 7, 8
+	- altered "sub_nav_list" - to reflect Obaji, T&J and other lines
+	- added massive table defn for Obaji (4) and T&J (6) 
+	
+content updates 08.09.07
+updated: 2.html - changes welcome splash message.
+
+content update 2008.09.10
+updated: 2.html - now includes javascript for jumpto 'bravenet' exhange - for cross site promotion
+       : (all).htm -- change my name to correct spelling
+	   : (all).htm -- added copyright graphic to bottom of each web page (footer)
+	   : 4.htm - stripped some items out of bottom of list
+	   : 6.htm - removed back bar items from list -- more retail oriented items only
+	   : all.html -- altered
+			<!-- 
+				Da xiong  2008_09_10 1616 PST
+			-->
+content update 2008.10.03
+updated : added Dermalogica Products
+		: added Jan Marini Products 
+		: replaced 4,6,7,8(.html) refernces in 3.html to NEW product pages
+		: created new product pages
+				: P_17, P_18, P_BioEl, P_DermA, P_DermB, P_JanM, P_Obaji, P_TJ
+		: rewrote   <DIV CLASS="sub_nav_container">  <UL CLASS="sub_nav_list"> 
+		       section in 3.html and the new Product pages
+		:
+		: modified 3, 4, 6, 7, 8 (.html) for new Product categories
+		: added 14, 16, 17, 18 (.html) product subMenus
+		
+	
+content update 2008.12.04
+added  	: electronic store front on 2.html
+updated	: Replaced by NEW Chroma White for dayBright and niteBright (Dermalogica - P_DermA.html)
+		: removed bogus items from (P_DermB.html)
+		: removed couple item out of specialty section - tatoo and mole removal (12.html)
+		: removed "Waxing" section from Service (1.html)
+		: updated 13.html for the new coupon and ad campaign 
+		
+content update 2010.10.25
+added	: sections/pages for new product line - Sakura Silk
+		: new pages for details on the Sakura products - P_Sakura1,2,3.html
+		: new top page for Sakura products - P_Sakura_List.html - can calls above
+updated	: all pages - changed <HEAD> block - removed the massive META TAGS - not effective for SEO
+		: added <META CONTENT value for "revision"
+		: moved around <script type="text/javascript"> for handling STRIPE 
+			functionality (note: may want to move externally, ala, "live_tinc.js")
+		: added <br> before "A Place for ..." quote to reflect better spacing and sizing due to following 2 changes
+		: modified "main.css" line 94 - value for "padding-left"
+		: modified "style.css", line 20 - increased font size for "#extra_div1"
+		: commented 288+ and 361+ - extra services we don't perform in 1.html
+		: commented line 81 - may have been an xtra <span> & also </span> at line 385
+		: rewrote table structure for P_DermaA.html -- new items/info
+		
+removed	: lines 386-886 in 1.html --- "Waxing section" which was commented	
+		: may have to deservice 16.html -- don't think it's in use; old setup to call eCommerce site
+
+content updates 2010.10.28
+updated	: phone # on every page to satisfy the bitch;
+ 		 	<br>&nbsp;&nbsp;&nbsp;&nbsp;(626) 451-9858 繁體中文; (626) 688-7322 English 		

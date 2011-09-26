@@ -1,0 +1,210 @@
+/*----------------------------------------------------------------------------
+	colorscheme1.css for colorscheme 1
+
+	this css-file contains all definitions, that depend on the colorscheme.
+
+	(c) Schlund + Partner AG
+----------------------------------------------------------------------------*/
+
+
+/*-- main container --------------------------------------------------------*/
+
+#container {
+	background : url(images/static/contentbg.gif) repeat-y 50% 50%;
+}
+
+/*--- header ---------------------------------------------------------------*/
+#header	{
+	background : url(images/static/headerbg.gif) no-repeat;
+}
+
+/*--- key visiual ----------------------------------------------------------*/
+
+/*--- caption --------------------------------------------------------------*/
+
+#extra_div1{
+	color: #5C5C5C;
+}
+
+#extra_div2{
+	background: url(images/static/empty.jpg) no-repeat;
+}
+
+/*--- main navigation ------------------------------------------------------*/
+#main_nav_container {
+	background : url(images/static/navbg.gif) repeat-y;
+}
+
+/*--- main navigation items ------------------------------------------------*/
+
+#main_nav_list a {
+	color: #0B1A21;
+	background: url(../../images/dynamic/buttonset3/n1.gif) no-repeat;
+	background-position: top right;
+}
+
+#main_nav_list a:hover {
+	color: #ffffff;
+	background: url(../../images/dynamic/buttonset3/n1hover.gif) no-repeat;
+	background-position: top right;
+}
+
+#main_nav_list a.main_nav_active_item {
+	color: #ffffff; 
+	background: url(../../images/dynamic/buttonset3/n1activeitem.gif) no-repeat;
+	background-position: top right;
+}
+
+
+/* --------------------------------------------------------------------------------------------------- */
+
+.sub_nav_list a {
+	color: #0B1A21;
+	background: url(../../images/dynamic/buttonset3/subnav1.gif) no-repeat; /* gelb */
+}
+
+.sub_nav_list a:hover {
+	background: url(../../images/dynamic/buttonset3/subnav1hover.gif) no-repeat; /* blau */
+	color: #ffffff;
+}
+
+.sub_nav_list a.sub_nav_active_item {
+	color: #ffffff;
+	background: url(../../images/dynamic/buttonset3/subnav1active.gif) no-repeat; /* gruen */
+}
+
+
+#sub_container2 {
+}
+
+
+
+/*--- footer ---------------------------------------------------------------*/
+
+#footer {
+	background: transparent url(images/static/footerbg.gif) top left no-repeat;
+}
+
+#footer_text {
+	color: #282828;
+}
+
+/*----------------------------------------------------------------------------
+  default-styles for html-elements
+----------------------------------------------------------------------------*/
+
+/*--- body -----------------------------------------------------------------*/
+
+body#main_body {
+	color: #282828;
+	background-color: #E3E3E3;
+	/*background : #e1dbda url(images/static/pgbk.gif) repeat-x;*/
+}
+
+/*--- paragraph ------------------------------------------------------------*/
+
+#content_container p {
+	color: #282828;
+}
+
+/*--- headings -------------------------------------------------------------*/
+
+#content_container h1 {
+	color: #5C5C5C;
+}
+
+#content_container h2 {
+	color: #5C5C5C;
+}
+
+#content_container h3 {
+	color: #5C5C5C;
+}
+
+/*--- links ----------------------------------------------------------------*/
+
+#content_container a:link{
+	color: #5C5C5C;
+}
+
+#content_container a:visited {
+	color: #5C5C5C;
+}
+
+#content_container a:hover {
+	color: #5C5C5C;
+}
+
+#content_container a:active {
+	color: #5C5C5C;
+}
+
+/*--- tables ---------------------------------------------------------------*/
+
+table {
+
+}
+
+th {
+
+}
+
+tr {
+
+}
+
+td {
+
+}
+
+#content_container table {
+	border-color: #ffffff;
+}
+
+#content_container th {
+	color: #ffffff;
+	background-color:#989898;
+	padding: 3px 2px 3px 5px;
+}
+
+#content_container tr.odd {
+	color: #515151;
+	background-color:#E3E3E3;
+	padding: 3px 2px 3px 2px;
+}
+
+#content_container tr.even {
+	color: #515151;
+	background-color: #E3E3E3;
+	padding: 3px 2px 3px 2px;
+}
+
+#content_container td {
+	padding-left: 5px;
+}
+
+
+/*--- forms ----------------------------------------------------------------*/
+
+fieldset {
+	border-color: #5C5C5C;
+}
+
+legend{
+	color: #5C5C5C;
+}
+
+label {
+	color: #5C5C5C;
+}
+
+input {
+	border-color: #5C5C5C;
+}
+
+textarea {
+	border-color: #5C5C5C;
+}
+
+/*--------------------------------------------------------------------------*/
+

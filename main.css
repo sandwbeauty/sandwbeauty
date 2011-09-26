@@ -1,0 +1,439 @@
+/*----------------------------------------------------------------------------
+	main.css
+
+	this css-file contains all definitions, that are independend from the
+	colorschemes.
+
+	(c) Schlund + Partner AG
+
+
+	----------------------------------------------------------------------
+	Modified and extended by Barti Bartman for the Sports-Template
+
+	This CSS-File uses the original "Tanteks Box Modell Hack"
+	http://www.tantek.com/CSS/Examples/boxmodelhack.html
+
+	NOTE:
+	Older W3C CSS validators return errors when the voice-family property
+	is used in a 'screen' style sheet. This is an error in the W3C CSS
+	validator itself. The validator should report a warning, not an error,
+	when properties which are unsupported by a particular medium are used,
+	and this has been reported to the W3C:
+
+ ----------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------
+ styles for specific classes and ids
+----------------------------------------------------------------------------*/
+
+
+/*-- global container ------------------------------------------------------*/
+
+#container {
+	position: relative;
+	padding: 0;
+	margin: 0 auto;
+	text-align: left;
+	width: 745px;
+}
+
+/*--- header ---------------------------------------------------------------*/
+
+#header	{
+	
+	padding: 0;
+	margin: 0;
+	width: 745px;
+	height: 231px;
+	top: 0px;
+	left: 0px;
+}
+
+/*--- key visual -----------------------------------------------------------*/
+
+#key_visual {
+	position: absolute;
+	top: 12px;
+	left: 5px;
+	width: 735px;
+	height: 192px;
+}
+
+/*--- logo -----------------------------------------------------------------*/
+
+#logo {
+	
+	width: 197px;
+	height: 80px;
+	position: absolute;
+	top: 206px;
+	left: 563px;
+}
+
+/*--- caption (as text or background image) --------------------------------*/
+
+#text_caption {
+	z-index: 1;
+	position: relative;
+	top: 205px;
+	left: 0px;
+}
+
+#extra_div1 {
+	
+	font-family: Arial,Verdana,Trebuchet MS,Tahoma,sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	position: relative;
+	top: 0px;
+	left: 0px;
+/*--- OLD value - padding-left: 325px
+        before font size was increased within "style.css" for (line 20) '#extra_div1'
+----*/
+	padding-left: 85px;
+	line-height: 25px;
+	height: 25px;
+	font-size: 90%;
+	
+}
+
+#extra_div2 {
+	position: absolute;
+	top: -1px;
+	left: 244px;
+	width: 745px;
+	height: 40px;
+}
+
+#image_caption {
+}
+
+#main_container {
+}
+
+#left_column_container {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 1px;
+	height: 300px;
+	float: left;
+}
+
+#sub_container2 {
+	margin: 0px 0px 25px 15px;
+	padding-top: 10px;
+	width: 715px;
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+#main_nav_container {
+	position: relative;
+	left: 7px;
+	float: left;
+	padding: 0px 15px 0 0;
+	margin-top: 32px;
+	overflow: visible;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 720px;
+	/*border: solid 2pt green;*/
+}
+
+html>body #main_nav_container {
+	width: 720px;
+}
+
+#main_nav_list {
+	float: left;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	top: 0px;
+	left: 12px;
+	list-style-type: none;
+}
+
+#main_nav_list li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+/*--- main navigation items ------------------------------------------------*/
+
+#main_nav_list a {
+	display: block;
+	float: left;
+	font-family: Arial,Verdana,Trebuchet MS,Tahoma,sans-serif;
+	background: transparent;
+	margin: 0;
+    padding: 0px 19px 0px 17px;
+	font-size: 90%;
+	font-weight: bold;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: none;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	height: 25px;
+}
+
+html>body #main_nav_list a {
+	height: 25px;
+}
+
+#main_nav_list a:hover {
+	background: transparent;
+	text-decoration: none;
+}
+
+#main_nav_list a.main_nav_active_item:link {
+	text-decoration: none;
+}
+
+/*--- subnavigation --------------------------------------------------------*/
+
+.sub_nav_container {
+
+	clear:both;
+	float:left;
+	/*border: solid 2pt red;*/
+	z-index: 1;
+	position: relative;
+	left: 5px;
+	top: 2px;
+	float: none;
+	width: 734px;
+	padding: 0 0 0 0;
+	margin: 0;
+	overflow: hidden;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+}
+
+html>body .sub_nav_container {
+	width: 734px;
+}
+
+.sub_nav_list {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	top: 1px;
+	left: 0;
+	list-style-type: none;
+	
+}
+
+.sub_nav_list li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 19px;
+}
+
+a.sub_nav_item {
+	width: 124px;
+	padding: 0;
+}
+
+a.sub_nav_active_item {
+	width: 124px;
+	padding: 0;
+}
+
+/*--- subnavigation items --------------------------------------------------*/
+
+.sub_nav_list a {
+	font-family: Arial,Verdana,Trebuchet MS,Tahoma,sans-serif;
+	background: transparent;
+	margin: 0;
+    padding-top: 0;/* 3px 19px 2px 17px  */
+    display: block;
+    float: left;
+	height: 19px;
+	font-size: 70%;
+	font-weight: bold;
+	line-height: 19px;
+	text-align: center;
+	text-decoration: none;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+}
+
+html>body .sub_nav_list a {
+	height: 19px;
+}
+
+
+.sub_nav_list a:hover {
+	background: transparent;
+	text-decoration: none;
+}
+
+
+/*--- content --------------------------------------------------------------*/
+
+#content_container {	
+	margin 0;
+	padding: 0;
+	overflow: hidden;
+	line-height: 1.2;
+	width: 700px;
+}
+
+html>body #content_container {
+	width: 700px;
+}
+
+
+
+/*--- footer ---------------------------------------------------------------*/
+
+#footer {
+	margin: 0px;
+	padding: 0;
+	width: 745px;
+	height: 79px;
+	clear: both;
+}
+
+#footer_text {
+	font-family: Arial,Verdana,Trebuchet MS,Tahoma,sans-serif;
+	padding: 10px 0 0 0;
+	margin: 0 30px 0 30px;
+	text-align: center;
+	font-size: 80%;
+}
+
+#copyright {
+	margin: 0px;
+	padding: 0;
+	width: 745px;
+	height: 0px;
+	clear: both;
+}
+
+#copyright_text {
+	font-family: Arial,Verdana,Trebuchet MS,Tahoma,sans-serif;
+	padding: 0px 0 0 0;
+	margin: 0 30px 0 30px;
+	text-align: center;
+	font-size: 80%;
+}
+
+/*----------------------------------------------------------------------------
+  default-styles for html-elements
+----------------------------------------------------------------------------*/
+
+/*--- body -----------------------------------------------------------------*/
+
+body#main_body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+/*--- paragraph ------------------------------------------------------------*/
+
+#content_container p {
+	margin: 5px 0 20px 0;
+	padding: 0;
+	font-size: 90%;
+	line-height: 1.2;
+}
+
+/*--- headings -------------------------------------------------------------*/
+
+#content_container h1 {
+	font-family: Arial,Verdana,Trebuchet MS,Tahoma,sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+#content_container h2 {
+	font-family: Arial,Verdana,Trebuchet MS,Tahoma,sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 130%;
+}
+
+#content_container h3 {
+	font-family: Arial,Verdana,Trebuchet MS,Tahoma,sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+/*--- links ----------------------------------------------------------------*/
+
+#content_container a:hover {
+	text-decoration : none;
+}
+
+
+/*--- tables ---------------------------------------------------------------*/
+
+table {
+	border: 1;
+	bordercolor: "#FFCC00";
+	background-color: "#FFCCFF";
+	width: "100%";
+	cellpadding: 3;
+	cellspacing: 3;
+
+}
+
+th {
+}
+
+tr {
+}
+
+td {
+
+}
+
+/*--- forms ----------------------------------------------------------------*/
+
+fieldset {
+	padding: 15px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+input {
+	border-style: solid;
+	border-width: 1px;
+}
+
+textarea {
+	border-style: solid;
+	border-width: 1px;
+}
+
+button {
+}
+
+label { 
+}
+
+select { 
+}
+
+option { 
+}
+
+/*--- lists ----------------------------------------------------------------*/
+
+ul { 
+}
+
+li { 
+}
+
+/*--------------------------------------------------------------------------*/
