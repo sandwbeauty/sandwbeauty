@@ -98,6 +98,8 @@
 body#main_body {
 	color: #282828;
 	background-color: #E3E3E3;
+	background-color: #FFF5FF;
+	
 	/*background : #e1dbda url(images/static/pgbk.gif) repeat-x;*/
 }
 
@@ -154,7 +156,6 @@ tr {
 }
 
 td {
-
 }
 
 #content_container table {
