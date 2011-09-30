@@ -1,1 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?><flashIntroConfig xmlns="http://www.schlund.de/webfix/flashIntroConfig"><fieldSet><name>S &amp; W Beauty Spa</name><slogan>A Place for a Beautiful You!</slogan></fieldSet><colorTable><color name="primColorStrong0" rgb="5C5C5C"/><color name="primColorMedium0" rgb="989898"/><color name="primColorLight0" rgb="E3E3E3"/><color name="secndColorStrong1" rgb="284A55"/><color name="secndColorStrong0" rgb="407688"/><color name="secndColorMedium1" rgb="549AB0"/><color name="secndColorMedium0" rgb="7AB0C1"/><color name="secndColorLight1" rgb="A4C9D5"/><color name="secndColorLight0" rgb="C8DFE6"/><color name="teaserColor" rgb="EA8D00"/><color name="neutralColorBlack" rgb="000000"/><color name="neutralColorStrong0" rgb="393942"/><color name="neutralColorMedium0" rgb="A2A2A6"/><color name="neutralColorLight0" rgb="D3D3D5"/><color name="neutralColorWhite" rgb="FFFFFF"/><color name="neutralColorTrans" rgb="FFFFFF"/></colorTable><link name="mainpage" href="2.html"/></flashIntroConfig>
+<?xml version="1.0" encoding="UTF-8"?>
+<flashIntroConfig xmlns="http://www.schlund.de/webfix/flashIntroConfig">
+
+	<fieldSet>
+		<name>S &amp; W Beauty Spa</name>
+		<slogan>A Place for a Beautiful You!</slogan>
+	</fieldSet>
+
+	<colorTable>
+		<color name="primColorStrong0" rgb="5C5C5C"/>
+		<color name="primColorMedium0" rgb="989898"/>
+		<color name="primColorLight0" rgb="E3E3E3"/>
+		<color name="secndColorStrong1" rgb="284A55"/>
+		<color name="secndColorStrong0" rgb="407688"/>
+		<color name="secndColorMedium1" rgb="549AB0"/>
+		<color name="secndColorMedium0" rgb="7AB0C1"/>
+		<color name="secndColorLight1" rgb="A4C9D5"/>
+		<color name="secndColorLight0" rgb="C8DFE6"/>
+		<color name="teaserColor" rgb="EA8D00"/>
+		<color name="neutralColorBlack" rgb="000000"/>
+		<color name="neutralColorStrong0" rgb="393942"/>
+		<color name="neutralColorMedium0" rgb="A2A2A6"/>
+		<color name="neutralColorLight0" rgb="D3D3D5"/>
+		<color name="neutralColorWhite" rgb="FFFFFF"/>
+		<color name="neutralColorTrans" rgb="FFFFFF"/>
+	</colorTable>
+	
+	<link name="mainpage" href="2.html"/>
+
+</flashIntroConfig>

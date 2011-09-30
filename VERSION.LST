@@ -76,4 +76,27 @@ removed	: lines 386-886 in 1.html --- "Waxing section" which was commented
 
 content updates 2010.10.28
 updated	: phone # on every page to satisfy the bitch;
- 		 	<br>&nbsp;&nbsp;&nbsp;&nbsp;(626) 451-9858 繁體中文; (626) 688-7322 English 		
+ 		 	<br>&nbsp;&nbsp;&nbsp;&nbsp;(626) 451-9858 繁體中文; (626) 688-7322 English 
+
+content updates 2011.09.26 and 2011.09.27
+global updates: (basic housekeeping items):
+			<META CONTENT="27-Sep-2011" NAME="revision">
+		    <DIV ID="footer_text">updated 2011-09-27<br></div>
+			&copy;&nbsp;2006-2011&nbsp;&nbsp;
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;(626) 451-9858 繁體中文; (626) TBD English
+			<!-- 
+			     Da Xiong  updated 2011-09-27 1737 PST
+			-->
+new updates: (additions/deletions): within the 'google_sitemap.xml' - added several missing files; 
+			 removed references to non-used web pages
+			
+general cleanup: of the 'introConfig.xml' file - made human readable.
+
+modified: '1.html' to reflect new menu items and pricing structure
+		: '1.html' - major reorganization of <TABLE> - removed a lot of redundant code
+		: '5.html' - rewriten to display IMG and added JS image toggler.
+		: all '*.html' - replaced reference to "Face & Body" with "** New Treatments **"
+		:
+
+	
+		
