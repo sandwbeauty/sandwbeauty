@@ -78,25 +78,35 @@ content updates 2010.10.28
 updated	: phone # on every page to satisfy the bitch;
  		 	<br>&nbsp;&nbsp;&nbsp;&nbsp;(626) 451-9858 繁體中文; (626) 688-7322 English 
 
-content updates 2011.09.26 and 2011.09.27
-global updates: (basic housekeeping items):
-			<META CONTENT="27-Sep-2011" NAME="revision">
-		    <DIV ID="footer_text">updated 2011-09-27<br></div>
-			&copy;&nbsp;2006-2011&nbsp;&nbsp;
-			<br>&nbsp;&nbsp;&nbsp;&nbsp;(626) 451-9858 繁體中文; (626) TBD English
-			<!-- 
-			     Da Xiong  updated 2011-09-27 1737 PST
-			-->
-new updates: (additions/deletions): within the 'google_sitemap.xml' - added several missing files; 
-			 removed references to non-used web pages
-			
-general cleanup: of the 'introConfig.xml' file - made human readable.
+content updates 2011.09.26 thru 2011.09.30
 
-modified: '1.html' to reflect new menu items and pricing structure
-		: '1.html' - major reorganization of <TABLE> - removed a lot of redundant code
-		: '5.html' - rewriten to display IMG and added JS image toggler.
-		: all '*.html' - replaced reference to "Face & Body" with "** New Treatments **"
-		:
+	global updates: (basic housekeeping items):
+				<META CONTENT="27-Sep-2011" NAME="revision">
+			    <DIV ID="footer_text">updated 2011-09-27<br></div>
+				&copy;&nbsp;2006-2011&nbsp;&nbsp;
+				<br>&nbsp;&nbsp;&nbsp;&nbsp;(626) 451-9858 繁體中文; (626) TBD English
+				<!-- 
+				     Da Xiong  updated 2011-09-27 1737 PST
+				-->
+	new updates: (additions/deletions): within the 'google_sitemap.xml' - added several missing files; 
+				 removed references to non-used web pages
+			
+	general cleanup: of the 'introConfig.xml' file - made human readable.
+
+	modified: '1.html' to reflect new menu items and pricing structure
+			: '1.html' - major reorganization of <TABLE> - removed a lot of redundant code
+			: '5.html' - rewriten to display IMG and added JS image toggler. Code added to 'live_tinc.js'
+			: all '*.html' - replaced reference to "Face & Body" with "** New Treatments **"
+			: {1, 2, 3, 4, 9, 10 and all 'P_'}.html files - replaced/inserted the following instead of 
+				existing code (basically commented 2nd menu bar).
+				<!--          
+				 <LI><A CLASS="main_nav_active_item" HREF="5.html"><SPAN CLASS="main_nav_active_item_text">Services</SPAN></A></LI>
+				 <LI><A CLASS="main_nav_item" HREF="13.html"><SPAN CLASS="main_nav_item_text">Monthly Special</SPAN></A></LI>
+				-->
+			: removed {5, 12, 13}.html from primary directory - no longer used.
+			: 2 new files HAVE TO RESIDE in base directory, Menu_EN.jpeg and Menu_CN.jpeg in order to work since picture toggle 
+				script strips "/" and script can't traverse directory structure - UGLY but it works.
+			:
 
 	
 		
